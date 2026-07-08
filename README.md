@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/logo.png" alt="SurvGuard — bias-aware survival analysis" width="360">
+</p>
+
 # SurvGuard
 
 ![Tests](https://github.com/katjaschei28/survguard/actions/workflows/tests.yml/badge.svg)
