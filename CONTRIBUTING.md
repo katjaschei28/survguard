@@ -5,7 +5,7 @@ Thank you for your interest in SurvGuard. This project is an educational MVP foc
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/survguard.git
+git clone https://github.com/katjaschei28/survguard.git
 cd survguard
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
