@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "survguard"
+version = "0.1.0"
+description = "Bias-aware survival-analysis linting for clinician-scientists"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "lifelines",
+    "pydantic",
+    "typer",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+survguard = "survguard.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["survguard*"]

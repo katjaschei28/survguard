@@ -1,0 +1,5 @@
+This is a synthetic delayed-entry survival-analysis example.
+
+Patients become observable only after entry_time. The event process starts at time zero, but patients enter observation later. Therefore the data are left truncated: individuals whose event occurred before entry_time are not observed.
+
+A Cox model analyzing observed_time and event should account for delayed entry using entry_col='entry_time' or an equivalent start-stop formulation.
